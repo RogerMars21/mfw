@@ -1,0 +1,210 @@
+0000.000 (0) Opened log file at time: Wed, 28 Mar 2018 06:44:47 +0000 on http://localhost/mfw
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.2.1 (apache2handler, Darwin MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.4M | 10M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 193330.4 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.009 (0) Semaphore (fd, hb_options) being initialised
+0000.032 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.036 (0) Set semaphore last lock (fd) time to 2018-03-28 06:44:47
+0000.037 (0) Semaphore lock (fd) complete
+0000.042 (0) Backup run: resumption=0, nonce=f671b2a907d8, begun at=1522219487 (0s ago), job type=backup
+0000.045 (0) Scheduling a resumption (1) after 300 seconds (1522219787) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.064 (0) Testing: /usr/bin/zip
+0000.074 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.075 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.076 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.077 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.078 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.088 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.090 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.105 (0) Working binary zip found: /usr/bin/zip
+0000.108 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.109 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.220 (0) Total entities for the zip file: 224 directories, 1556 files (0 skipped as non-modified), 26 MB
+0000.228 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.234 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.240 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.247 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.253 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 1556 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.955 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: size is now: 2.90 MB
+0000.968 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 600 files added (on-disk size: 2983.7 KB)
+0000.978 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 700 files added (on-disk size: 2983.7 KB)
+0000.990 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 800 files added (on-disk size: 2983.7 KB)
+0000.998 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 900 files added (on-disk size: 2983.7 KB)
+0001.007 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1000 files added (on-disk size: 2983.7 KB)
+0001.008 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.2 MB, 1556 files batched, 501 (1002) added so far); re-opening (prior size: 2983.7 KB)
+0002.028 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: size is now: 6.90 MB
+0002.041 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1100 files added (on-disk size: 7045.9 KB)
+0002.048 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1200 files added (on-disk size: 7045.9 KB)
+0002.055 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1300 files added (on-disk size: 7045.9 KB)
+0002.062 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1400 files added (on-disk size: 7045.9 KB)
+0002.069 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip.tmp: 1500 files added (on-disk size: 7045.9 KB)
+0002.070 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 1556 files batched, 501 (1503) added so far); re-opening (prior size: 7045.9 KB)
+0003.279 (0) Created plugins zip (0) - 7904.3 KB in 3.2 s (2498.5 KB/s) (sha1: 2c2b0ba7e81848d7a052b121192b9f0e45593b77, sha256: 83243e555a948fbb18c6f374898bb5069d3d613bc1dac57606540ce57f1fea9c)
+0003.283 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.299 (0) Total entities for the zip file: 24 directories, 144 files (0 skipped as non-modified), 2.9 MB
+0003.306 (0) Zip: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.818 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip.tmp: size is now: 2.20 MB
+0003.890 (0) Created themes zip (0) - 2266.1 KB in 0.6 s (3750.8 KB/s) (sha1: 9352cb951d4bf1958efcb6d8c42234abfe69d171, sha256: bf17e68c6606edafeffe759f4fcb2194c0d748f00925b75c89e94c29c636dc2c)
+0003.893 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.895 (0) Looking for candidates to back up in: /Users/pierre/Documents/GitHub/mfw/wp-content/uploads
+0003.896 (0) finding files: 2018: adding to list (1)
+0003.897 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.902 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0003.910 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip.tmp: size is now: 0.00 MB
+0003.918 (0) Created uploads zip (0) - 0.3 KB in 0 s (17.2 KB/s) (sha1: 1c4440693d27023400ea266f81cba0d89b427192, sha256: b2a8f8eeb0b5be1043b5ca70e4aebda716e48feceb23983704972660557a2aef)
+0003.921 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.922 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.923 (0) Looking for candidates to back up in: /Users/pierre/Documents/GitHub/mfw/wp-content
+0003.924 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0003.925 (0) finding files: index.php: adding to list (1)
+0003.926 (0) finding files: languages: adding to list (2)
+0003.927 (0) finding files: plugins: skipping: this is the plugins directory
+0003.928 (0) finding files: themes: skipping: this is the themes directory
+0003.930 (0) finding files: updraft: skipping: this is the updraft directory
+0003.931 (0) finding files: upgrade: skipping: excluded by options
+0003.932 (0) finding files: uploads: skipping: this is the uploads directory
+0003.937 (0) Total entities for the zip file: 3 directories, 21 files (0 skipped as non-modified), 2.1 MB
+0004.054 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip.tmp: size is now: 0.60 MB
+0004.078 (0) Created others zip (0) - 626.3 KB in 0.1 s (4346.9 KB/s) (sha1: b3106fb4965e65547ccace56861606ea6cdf6028, sha256: 5bdb1baf8ef8ca9b77d55ec301eb7cf5b4c6517de0800ae26faad1359b9a1d30)
+0004.084 (0) Saving backup status to database (elements: 8)
+0004.087 (0) Beginning creation of database dump (WordPress DB)
+0004.105 (0) Table hb_options: Total expected rows (approximate): 194
+0004.125 (0) Table hb_options: Total rows added: 190 in 0.02 seconds
+0004.127 (0) Table hb_options: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_options.table.gz - 30 KB)
+0004.135 (0) Table hb_users: Total expected rows (approximate): 0
+0004.138 (0) Table hb_users: Total rows added: 1 in 0.00 seconds
+0004.140 (0) Table hb_users: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_users.table.gz - 0.6 KB)
+0004.146 (0) Table hb_usermeta: Total expected rows (approximate): 17
+0004.149 (0) Table hb_usermeta: Total rows added: 18 in 0.00 seconds
+0004.150 (0) Table hb_usermeta: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_usermeta.table.gz - 1 KB)
+0004.158 (0) Table hb_commentmeta: Total expected rows (approximate): 0
+0004.162 (0) Table hb_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.163 (0) Table hb_commentmeta: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_commentmeta.table.gz - 0.4 KB)
+0004.168 (0) Table hb_comments: Total expected rows (approximate): 0
+0004.172 (0) Table hb_comments: Total rows added: 1 in 0.00 seconds
+0004.173 (0) Table hb_comments: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_comments.table.gz - 0.8 KB)
+0004.181 (0) Table hb_links: Total expected rows (approximate): 0
+0004.184 (0) Table hb_links: Total rows added: 0 in 0.00 seconds
+0004.186 (0) Table hb_links: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_links.table.gz - 0.4 KB)
+0004.192 (0) Table hb_postmeta: Total expected rows (approximate): 1
+0004.196 (0) Table hb_postmeta: Total rows added: 1 in 0.00 seconds
+0004.197 (0) Table hb_postmeta: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_postmeta.table.gz - 0.4 KB)
+0004.203 (0) Table hb_posts: Total expected rows (approximate): 4
+0004.207 (0) Table hb_posts: Total rows added: 3 in 0.00 seconds
+0004.208 (0) Table hb_posts: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_posts.table.gz - 1.6 KB)
+0004.215 (0) Table hb_term_relationships: Total expected rows (approximate): 0
+0004.219 (0) Table hb_term_relationships: Total rows added: 1 in 0.00 seconds
+0004.221 (0) Table hb_term_relationships: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_term_relationships.table.gz - 0.4 KB)
+0004.228 (0) Table hb_term_taxonomy: Total expected rows (approximate): 0
+0004.232 (0) Table hb_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0004.233 (0) Table hb_term_taxonomy: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_term_taxonomy.table.gz - 0.4 KB)
+0004.240 (0) Table hb_termmeta: Total expected rows (approximate): 0
+0004.243 (0) Table hb_termmeta: Total rows added: 0 in 0.00 seconds
+0004.244 (0) Table hb_termmeta: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_termmeta.table.gz - 0.4 KB)
+0004.252 (0) Table hb_terms: Total expected rows (approximate): 0
+0004.256 (0) Table hb_terms: Total rows added: 1 in 0.00 seconds
+0004.257 (0) Table hb_terms: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_terms.table.gz - 0.4 KB)
+0004.263 (0) Table hb_aiowps_events: Total expected rows (approximate): 0
+0004.266 (0) Table hb_aiowps_events: Total rows added: 0 in 0.00 seconds
+0004.267 (0) Table hb_aiowps_events: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_events.table.gz - 0.4 KB)
+0004.274 (0) Table hb_aiowps_failed_logins: Total expected rows (approximate): 0
+0004.277 (0) Table hb_aiowps_failed_logins: Total rows added: 0 in 0.00 seconds
+0004.279 (0) Table hb_aiowps_failed_logins: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_failed_logins.table.gz - 0.4 KB)
+0004.284 (0) Table hb_aiowps_global_meta: Total expected rows (approximate): 0
+0004.319 (0) Table hb_aiowps_global_meta: Total rows added: 1 in 0.03 seconds
+0004.322 (0) Table hb_aiowps_global_meta: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_global_meta.table.gz - 80.1 KB)
+0004.327 (0) Table hb_aiowps_login_activity: Total expected rows (approximate): 0
+0004.330 (0) Table hb_aiowps_login_activity: Total rows added: 0 in 0.00 seconds
+0004.332 (0) Table hb_aiowps_login_activity: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_login_activity.table.gz - 0.4 KB)
+0004.339 (0) Table hb_aiowps_login_lockdown: Total expected rows (approximate): 0
+0004.342 (0) Table hb_aiowps_login_lockdown: Total rows added: 0 in 0.00 seconds
+0004.343 (0) Table hb_aiowps_login_lockdown: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_login_lockdown.table.gz - 0.4 KB)
+0004.351 (0) Table hb_aiowps_permanent_block: Total expected rows (approximate): 0
+0004.354 (0) Table hb_aiowps_permanent_block: Total rows added: 0 in 0.00 seconds
+0004.356 (0) Table hb_aiowps_permanent_block: finishing file (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_permanent_block.table.gz - 0.4 KB)
+0004.361 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_options.table.gz (1/18): adding to final database dump
+0004.372 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_users.table.gz (2/18): adding to final database dump
+0004.374 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_usermeta.table.gz (3/18): adding to final database dump
+0004.376 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_commentmeta.table.gz (4/18): adding to final database dump
+0004.377 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_comments.table.gz (5/18): adding to final database dump
+0004.378 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_links.table.gz (6/18): adding to final database dump
+0004.379 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_postmeta.table.gz (7/18): adding to final database dump
+0004.380 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_posts.table.gz (8/18): adding to final database dump
+0004.382 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_term_relationships.table.gz (9/18): adding to final database dump
+0004.383 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_term_taxonomy.table.gz (10/18): adding to final database dump
+0004.384 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_termmeta.table.gz (11/18): adding to final database dump
+0004.385 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_terms.table.gz (12/18): adding to final database dump
+0004.386 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_events.table.gz (13/18): adding to final database dump
+0004.387 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_failed_logins.table.gz (14/18): adding to final database dump
+0004.388 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_global_meta.table.gz (15/18): adding to final database dump
+0004.421 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_login_activity.table.gz (16/18): adding to final database dump
+0004.422 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_login_lockdown.table.gz (17/18): adding to final database dump
+0004.424 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db-table-hb_aiowps_permanent_block.table.gz (18/18): adding to final database dump
+0004.425 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz: finished writing out complete database file (104 KB)
+0004.436 (0) Total database tables backed up: 18 (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz, size: 117902, sha256)
+0004.447 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0004.449 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0004.450 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0004.452 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0004.453 (0) backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.454 (0) Saving backup history. Total backup size: 10.7 MB
+0004.460 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0004.465 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0004.469 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-158b66ebea3e160365f66a096c2a1d90)
+0004.470 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0004.491 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0005.066 (0) Dropbox quota usage: used=42.5 MB, total=2304 MB, available=2261.5 MB
+0005.071 (0) Dropbox: Attempt to upload: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip to: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip
+0007.407 (0) Dropbox chunked upload: 13 % uploaded (AAAAAAAABZ9mOHFI8EgTmw, 1048576, 2048 KB)
+0011.370 (0) Dropbox chunked upload: 38.9 % uploaded (AAAAAAAABZ9mOHFI8EgTmw, 3145728, 3072 KB)
+0020.019 (0) Dropbox chunked upload: 77.7 % uploaded (AAAAAAAABZ9mOHFI8EgTmw, 6291456, 3072 KB)
+0024.736 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABZ9mOHFI8EgTmw, 8093953, 3072 KB)
+0026.892 (0) Recording as successfully uploaded: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip (2752f716d2589620a80ab043c283355a)
+0026.902 (0) Deleting local file: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip: OK
+0026.903 (0) Dropbox: File upload success (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-plugins.zip): 7904 KB in 21s (362 KB/s)
+0027.479 (0) Dropbox quota usage: used=50.3 MB, total=2304 MB, available=2253.7 MB
+0027.485 (0) Dropbox: Attempt to upload: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip to: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip
+0031.816 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABaCHGckb6kBl6w, 2320525, 3072 KB)
+0033.974 (0) Recording as successfully uploaded: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip (d252c1e9bff40182f8e84750dd909053)
+0033.981 (0) Deleting local file: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip: OK
+0033.983 (0) Dropbox: File upload success (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-themes.zip): 2266 KB in 6s (348 KB/s)
+0034.557 (0) Dropbox quota usage: used=52.5 MB, total=2304 MB, available=2251.5 MB
+0034.563 (0) Dropbox: Attempt to upload: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip to: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip
+0035.552 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABaGI7pGyCQUk1g, 336, 3072 KB)
+0036.918 (0) Recording as successfully uploaded: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip (ffa231a935beaa006cfa622cc5aa7fef)
+0036.923 (0) Deleting local file: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip: OK
+0036.924 (0) Dropbox: File upload success (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-uploads.zip): 0 KB in 2s (0 KB/s)
+0037.507 (0) Dropbox quota usage: used=52.5 MB, total=2304 MB, available=2251.5 MB
+0037.508 (0) Dropbox: Attempt to upload: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip to: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip
+0039.494 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABaKRB-tT2nGmyA, 641349, 3072 KB)
+0041.440 (0) Recording as successfully uploaded: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip (cbc6cda49b147f0dfabd2293798e17fb)
+0041.446 (0) Deleting local file: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip: OK
+0041.447 (0) Dropbox: File upload success (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-others.zip): 626 KB in 3s (159 KB/s)
+0042.028 (0) Dropbox quota usage: used=53.1 MB, total=2304 MB, available=2250.9 MB
+0042.030 (0) Dropbox: Attempt to upload: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz to: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz
+0043.220 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAABaMPDhGzn2pDDQ, 117902, 3072 KB)
+0044.788 (0) Recording as successfully uploaded: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz (096946c6f024650668a7bdfd6ff8cec9)
+0044.795 (0) Deleting local file: backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz: OK
+0044.796 (0) Dropbox: File upload success (backup_2018-03-28-0844_hagen_bauer_f671b2a907d8-db.gz): 115 KB in 2s (41 KB/s)
+0044.803 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0044.805 (0) Number of backup sets in history: 1; groups (db): 1
+0044.806 (0) Examining (for databases) backup set with group_id=0, nonce=f671b2a907d8, datestamp=1522219487 (Mar 28 2018 06:44:47)
+0044.808 (0) This backup set is the backup set just made, so will not be deleted.
+0044.808 (0) Number of backup sets in history: 1; groups (files): 1
+0044.809 (0) Examining (for files) backup set with nonce=f671b2a907d8, datestamp=1522219487 (Mar 28 2018 06:44:47)
+0044.809 (0) This backup set is the backup set just made, so will not be deleted.
+0044.810 (0) This backup set is the backup set just made, so will not be deleted.
+0044.810 (0) This backup set is the backup set just made, so will not be deleted.
+0044.810 (0) This backup set is the backup set just made, so will not be deleted.
+0044.810 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0044.811 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0044.815 (0) Resume backup (f671b2a907d8, 0): finish run
+0044.819 (0) Decremented the semaphore (fd) by 1
+0044.820 (0) Semaphore (fd) unlocked
+0044.821 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0044.825 (0) The backup apparently succeeded and is now complete
+0044.826 (0) No email will/can be sent - the user has not configured an email address.
+0044.827 (0) La sauvegarde a réussie. Elle est maintenant terminée.
